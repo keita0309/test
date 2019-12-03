@@ -34,8 +34,8 @@ Things you may want to cover:
 
 ### Association
 
--has many :tweets
--has many :comments
+- has many :tweets
+- has many :comments
 
 ## tweets テーブル
 
@@ -48,8 +48,8 @@ Things you may want to cover:
 
 ### Association
 
-belongs_to :user
-has_many :comments
+- belongs_to :user
+- has_many :comments
 
 ## comments テーブル
 
@@ -62,8 +62,8 @@ has_many :comments
 
 ### Association
 
-belongs_to :tweets
-belongs_to :user
+- belongs_to :tweets
+- belongs_to :user
 
 
 
